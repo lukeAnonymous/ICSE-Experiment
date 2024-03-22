@@ -4,7 +4,7 @@ The replication of the system concurrency experiment is divided into three parts
 
 ## Data Acquisition
 
-1. Run an Ethereum client (such as Geth) to sync Ethereum data, and populate the synced database into `main.go` within `./export_evm_action/gendataset`. As detail：
+1. Run an Ethereum client (such as Geth) to sync Ethereum data, and populate the synced database into `main.go` within `./ETH state capture/gendataset`. As detail：
 
    ```go
    var (
